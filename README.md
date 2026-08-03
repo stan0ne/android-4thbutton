@@ -68,8 +68,10 @@ After setup a round button appears at the edge of the screen.
 
 ## Screenshots
 
-![Settings screen](screenshots/settings.png)
-![Floating menu](screenshots/menu.png)
+<p align="center">
+  <img src="screenshots/settings.png" alt="Settings screen" width="45%">
+  <img src="screenshots/menu.png" alt="Floating menu" width="45%">
+</p>
 
 ## Screenshot
 
