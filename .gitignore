@@ -1,0 +1,29 @@
+# Gradle / Android
+.gradle/
+build/
+app/build/
+.kotlin/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+.DS_Store
+
+# Source artwork
+ChatGPT*.png
+
+# Tooling / agent config (not part of the app)
+.codegraph/
+.claude/
+.cursor/
+.gemini/
+.kiro/
+AGENTS.md
+GEMINI.md
+opencode.jsonc
+.mcp.json
+prompt.txt

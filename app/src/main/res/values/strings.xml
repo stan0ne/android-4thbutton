@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">4thButton</string>
+
+    <string name="accessibility_service_label">4thButton Controls</string>
+    <string name="accessibility_service_description">4thButton provides a floating control for screen lock, screenshots, the power menu and the flashlight. Intended for devices whose physical power button is broken. It does not read the content of your screens. No data is collected and no internet connection is used.</string>
+
+    <string name="enable_accessibility">Enable Accessibility</string>
+    <string name="accessibility_required_title">Accessibility Service Required</string>
+    <string name="accessibility_required_desc">This app needs Android Accessibility Service access to provide the floating control, screen lock, screenshot and power menu features.</string>
+    <string name="accessibility_enabled">Accessibility Service: Enabled</string>
+    <string name="accessibility_disabled">Accessibility Service: Disabled</string>
+    <string name="floating_button_enabled">Floating button enabled</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="tagline">Replace your broken power button with software controls.</string>
+
+    <string name="screen_lock">Screen Lock</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="power_menu">Power Menu</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="reboot">Reboot</string>
+
+    <string name="action_screen_lock_desc">Lock the screen</string>
+    <string name="action_screenshot_desc">Take a screenshot</string>
+    <string name="action_power_menu_desc">Open the system power menu</string>
+    <string name="action_flashlight_desc">Toggle the flashlight</string>
+
+    <string name="screenshot_delay">Screenshot Delay</string>
+    <string name="delay_immediate">Immediate</string>
+    <string name="delay_3s">3 seconds</string>
+    <string name="delay_5s">5 seconds</string>
+    <string name="delay_10s">10 seconds</string>
+    <string name="delay_3_sec">3 sec</string>
+    <string name="delay_5_sec">5 sec</string>
+    <string name="delay_10_sec">10 sec</string>
+
+    <string name="screenshot_in">Screenshot in</string>
+    <string name="cancel">Cancel</string>
+    <string name="countdown_cancelled">Countdown cancelled</string>
+    <string name="screenshot_saved">Screenshot saved</string>
+    <string name="screenshot_failed">Screenshot failed</string>
+    <string name="screenshot_failed_save">Screenshot failed to save.</string>
+    <string name="screenshot_share">Share</string>
+    <string name="screenshot_edit">Edit</string>
+    <string name="screenshot_delete">Delete</string>
+    <string name="screenshot_deleted">Screenshot deleted</string>
+    <string name="no_app_available">No app available for this action</string>
+
+    <string name="flashlight_on">Flashlight On</string>
+    <string name="flashlight_off">Flashlight Off</string>
+    <string name="flashlight_unavailable">Flashlight is not available on this device</string>
+    <string name="flashlight_error">Could not control flashlight</string>
+
+    <string name="action_unavailable">Action unavailable</string>
+    <string name="not_supported_on_device">not supported on this device</string>
+    <string name="unable_to_lock">Unable to lock the screen. Please check Accessibility permission.</string>
+    <string name="power_menu_failed">Unable to open the system power menu.</string>
+
+    <string name="reboot_not_available">Direct reboot is not available on this device. Use the system Power Menu.</string>
+    <string name="reboot_requires_privileges">Reboot requires device/system privileges</string>
+
+    <string name="settings">Settings</string>
+    <string name="actions">Actions</string>
+    <string name="customize_actions">Customize Actions</string>
+    <string name="reorder_hint">Long-press an action and drag to reorder</string>
+    <string name="button_settings">Floating Button</string>
+    <string name="button_size">Size</string>
+    <string name="button_opacity">Opacity</string>
+    <string name="size_small">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_large">Large</string>
+    <string name="opacity_40">40%</string>
+    <string name="opacity_60">60%</string>
+    <string name="opacity_80">80%</string>
+    <string name="opacity_100">100%</string>
+    <string name="about">About</string>
+    <string name="about_desc">4thButton is an offline utility that replaces the physical power button with on-screen software controls.</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_desc">This app collects no data, needs no internet, and never reads the content of your screens.</string>
+</resources>
