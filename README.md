@@ -66,6 +66,11 @@ After setup a round button appears at the edge of the screen.
 - **Tap** it to open the menu.
 - Tap an action. The menu closes after the action fires.
 
+## Screenshots
+
+![Settings screen](screenshots/settings.png)
+![Floating menu](screenshots/menu.png)
+
 ## Screenshot
 
 - Tap **Screenshot** in the menu.
