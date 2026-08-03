@@ -7,6 +7,18 @@ android {
     namespace = "com.stan0ne.fourthbutton"
     compileSdk = 35
 
+    signingConfigs {
+        val keystorePath = System.getenv("RELEASE_KEYSTORE")
+        if (keystorePath != null) {
+            create("release") {
+                storeFile = file(keystorePath)
+                storePassword = System.getenv("RELEASE_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("RELEASE_KEY_ALIAS") ?: "4thbutton"
+                keyPassword = System.getenv("RELEASE_KEYSTORE_PASSWORD")
+            }
+        }
+    }
+
     defaultConfig {
         applicationId = "com.stan0ne.fourthbutton"
         minSdk = 28
@@ -18,6 +30,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.findByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"

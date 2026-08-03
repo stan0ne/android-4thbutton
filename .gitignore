@@ -16,6 +16,11 @@ captures/
 # Source artwork
 ChatGPT*.png
 
+# Release signing (never commit these)
+release.keystore
+release.keystore.properties
+*.jks
+
 # Tooling / agent config (not part of the app)
 .codegraph/
 .claude/
