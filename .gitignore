@@ -20,6 +20,7 @@ ChatGPT*.png
 release.keystore
 release.keystore.properties
 *.jks
+key.txt
 
 # Tooling / agent config (not part of the app)
 .codegraph/
